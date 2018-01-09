@@ -1,0 +1,11 @@
+#######################################################
+#################  Kubernetes Install #################
+#######################################################
+
+---
+  - name: 'Install Kubernetes python-netaddr package'
+    yum:
+      name: 'python-netaddr'
+      state: 'installed'
+
+...
